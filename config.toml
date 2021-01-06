@@ -23,7 +23,7 @@ taxonomies = [
 
 [extra]
 
-dark_mode = false
+dark_mode = true
 
 nav = [
   { name = "About", path = "/about/" },
