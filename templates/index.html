@@ -5,7 +5,7 @@
 {% endblock styles %}
 
 {% block posthead %}
-  <link rel="prefetch" href="{{ resize_image(path=config.extra.profile_large, width=280, height=373, op="fill") }}">
+  <link rel="prefetch" href="{{ resize_image(path=config.extra.profile_large, width=373, height=373, op="fill") }}">
 
   {% if config.extra.latest_text %}
     {% set blog_path = "blog" %}
@@ -24,7 +24,7 @@
 {% block content %}
   <div class="profile">
     <div class="profile-container">
-      <img src="{{ resize_image(path=config.extra.profile_large, width=280, height=373, op="fill") }}" alt="profile picture">
+      <img src="{{ resize_image(path=config.extra.profile_large, width=373, height=373, op="fill") }}" alt="profile picture">
     </div>
   </div>
   <div class="content">
